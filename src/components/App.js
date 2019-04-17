@@ -66,20 +66,8 @@ const App = () => {
         <Element num="55" />
         <Element num="56" />
         <Element num="57" />
-        <Element num="58" />
-        <Element num="59" />
-        <Element num="60" />
-        <Element num="61" />
-        <Element num="62" />
-        <Element num="63" />
-        <Element num="64" />
-        <Element num="65" />
-        <Element num="66" />
-        <Element num="67" />
-        <Element num="68" />
-        <Element num="69" />
-        <Element num="70" />
-        <Element num="71" />
+
+        {/* Lanthanoids */}
         <Element num="72" />
         <Element num="73" />
         <Element num="74" />
@@ -98,20 +86,8 @@ const App = () => {
         <Element num="87" />
         <Element num="88" />
         <Element num="89" />
-        <Element num="90" />
-        <Element num="91" />
-        <Element num="92" />
-        <Element num="93" />
-        <Element num="94" />
-        <Element num="95" />
-        <Element num="96" />
-        <Element num="97" />
-        <Element num="98" />
-        <Element num="99" />
-        <Element num="100" />
-        <Element num="101" />
-        <Element num="102" />
-        <Element num="103" />
+
+        {/* Actinoids */}
         <Element num="104" />
         <Element num="105" />
         <Element num="106" />
@@ -128,6 +104,38 @@ const App = () => {
         <Element num="117" />
         <Element num="118" />
         <Element num="119" />
+
+        {/* Lanthanoids */}
+        <Element num="58" />
+        <Element num="59" />
+        <Element num="60" />
+        <Element num="61" />
+        <Element num="62" />
+        <Element num="63" />
+        <Element num="64" />
+        <Element num="65" />
+        <Element num="66" />
+        <Element num="67" />
+        <Element num="68" />
+        <Element num="69" />
+        <Element num="70" />
+        <Element num="71" />
+        
+        {/* Actinoids */}
+        <Element num="90" />
+        <Element num="91" />
+        <Element num="92" />
+        <Element num="93" />
+        <Element num="94" />
+        <Element num="95" />
+        <Element num="96" />
+        <Element num="97" />
+        <Element num="98" />
+        <Element num="99" />
+        <Element num="100" />
+        <Element num="101" />
+        <Element num="102" />
+        <Element num="103" />
       </div>
     </div>
   )
