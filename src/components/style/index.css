@@ -65,3 +65,48 @@ h1 {
   text-align: center;
   font-size: 0.8vw;
 }
+
+/* Types */
+.noble {
+  background: #58B6D3;
+}
+
+.alkali {
+  background: #E1B272;
+}
+
+.alkaline {
+  background: #EBCE4E;
+}
+
+.transition {
+  background: #DB6DC2;  
+}
+
+.lanthanide {
+  background: #EA711E;
+}
+
+.post-transition {
+  background: #06F0C0;
+}
+
+.actinide {
+  background: #F0069B;
+}
+
+.unknown {
+  background: #C4BBC1;
+}
+
+.diatomic {
+  background: #FF8399;
+}
+
+.metalloid {
+  background: #3F9A83;
+}
+
+.polyatomic {
+  background: #4B42F4;
+}
