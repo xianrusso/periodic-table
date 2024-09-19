@@ -1,5 +1,4 @@
-module.exports = {
-  elements: [
+const elements = [
     {
       name: 'None',
       summary: 'Place of zero so that the array starts with 1 with hydrogen'
@@ -2870,5 +2869,6 @@ module.exports = {
       ypos: 8,
       shells: [2, 8, 18, 32, 32, 18, 8, 1]
     }
-  ]
-};
+]
+
+export { elements }

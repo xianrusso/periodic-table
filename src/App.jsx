@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-
-import Element from "./Element";
+import Element from "./components/Element";
 
 document.title = 'The Periodic Table';
 
-const App = () => {
+function App() {
   return (
     <div className="container">
       <h1>The Periodic Table</h1>
@@ -141,4 +140,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App
