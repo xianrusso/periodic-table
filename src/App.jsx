@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Element from "./components/Element";
 
 document.title = 'The Periodic Table';
@@ -6,7 +6,7 @@ document.title = 'The Periodic Table';
 function App() {
   return (
     <div className="container">
-      <h1>The Periodic Table</h1>
+      {/* <h1>The Periodic Table</h1> */}
       <div className="table">
         <Element num="1" />
         <Element num="2" />
@@ -102,7 +102,6 @@ function App() {
         <Element num="116" />
         <Element num="117" />
         <Element num="118" />
-        <Element num="119" />
 
         {/* Lanthanoids */}
         <Element num="58" />
@@ -140,4 +139,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
