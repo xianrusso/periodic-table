@@ -1,11 +1,15 @@
 import React from 'react';
 import Element from "./components/Element";
+import Key from "./components/Key";
+
+import './index.css';
 
 document.title = 'The Periodic Table';
 
 function App() {
   return (
     <div className="container">
+      <main></main>
       {/* <h1>The Periodic Table</h1> */}
       <div className="table">
         <Element num="1" />
@@ -135,6 +139,8 @@ function App() {
         <Element num="102" />
         <Element num="103" />
       </div>
+
+      <Key />
     </div>
   )
 }
