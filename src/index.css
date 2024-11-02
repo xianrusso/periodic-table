@@ -7,9 +7,10 @@
   --lanthanide: #EA711E;
   --actinide: #F0069B;
   --unknown: #C4BBC1;
-  --diatomic: #FF8399;
+  --nonmetal: #FF8399;
   --metalloid: #3F9A83;
-  --polyatomic: #4B42F4;
+  /* --polyatomic: #4B42F4; */
+  --transition: #DB6DC2;
 }
 
 * {
@@ -140,7 +141,7 @@ main { grid-area: 1 / 3 / 3 / 12; }
 }
 
 .transition {
-  background: #DB6DC2;  
+  background: var(--transition);  
 }
 
 .lanthanide {
@@ -160,16 +161,20 @@ main { grid-area: 1 / 3 / 3 / 12; }
 }
 
 .diatomic {
-  background: var(--diatomic);
+  background: var(--nonmetal);
+}
+
+.polyatomic {
+  background: var(--nonmetal);
 }
 
 .metalloid {
   background: var(--metalloid);
 }
 
-.polyatomic {
+/* .polyatomic {
   background: var(--polyatomic);
-}
+} */
 
 /* Key */
 
